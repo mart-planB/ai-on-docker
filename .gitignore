@@ -1,0 +1,15 @@
+# Model files
+models/*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.env
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db

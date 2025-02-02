@@ -1,0 +1,28 @@
+{
+    "pricing": {
+        "basic": "$10/month",
+        "pro": "$25/month",
+        "enterprise": "Custom pricing"
+    },
+    "features": {
+        "basic": [
+            "Email support",
+            "Basic analytics"
+        ],
+        "pro": [
+            "24/7 support",
+            "Advanced analytics",
+            "API access"
+        ],
+        "enterprise": [
+            "Dedicated support",
+            "Custom features",
+            "SLA guarantee"
+        ]
+    },
+    "common_issues": {
+        "login": "Try clearing your cache and cookies",
+        "payment": "Contact billing@company.com",
+        "api": "Check our API documentation at docs.company.com"
+    }
+}
