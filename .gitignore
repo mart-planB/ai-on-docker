@@ -1,5 +1,6 @@
 # Model files
 models/*.gguf
+models/
 
 # Python
 __pycache__/
