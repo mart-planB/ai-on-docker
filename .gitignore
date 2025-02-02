@@ -1,6 +1,8 @@
 # Model files
 models/*.gguf
 models/
+models/*
+models/meta-llama-3.1-8b-instruct-abliterated.json
 
 # Python
 __pycache__/
