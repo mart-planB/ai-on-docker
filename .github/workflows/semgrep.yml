@@ -24,7 +24,7 @@ jobs:
         run: python3 -m pip install semgrep
 
       - name: Run Semgrep
-        run: semgrep scan --config auto --verbose --json > semgrep-results.json
+        run: semgrep scan --config auto --verbose --json --recursive > semgrep-results.json
 
       - name: Upload JSON Output
         uses: actions/upload-artifact@v4
