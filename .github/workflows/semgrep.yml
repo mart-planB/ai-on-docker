@@ -23,7 +23,7 @@ jobs:
       - name: Install Semgrep
         run: python3 -m pip install semgrep
 
-      - name: Run Semgrep
+      - name: Run Semgrep on All Subdirectories
         run: semgrep scan --config auto --verbose --json --recursive > semgrep-results.json
 
       - name: Upload JSON Output
