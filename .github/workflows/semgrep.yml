@@ -21,10 +21,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install Semgrep
-        run: python3 -m pip install semgrep
+        run: python3 -m pip install --upgrade semgrep
 
       - name: Run Semgrep on All Subdirectories
-        run: semgrep scan --config auto --verbose --json --recursive > semgrep-results.json
+        run: semgrep scan --config auto --verbose --json > semgrep-results.json
 
       - name: Upload JSON Output
         uses: actions/upload-artifact@v4
